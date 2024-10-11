@@ -1,5 +1,5 @@
 .market{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: space-around;
@@ -7,43 +7,31 @@
     background-color: rgba(33, 33, 33, 0.751);
 }
 
-.part{
+.wrapper{
     width: 300px;
-    /* height: 480px; */
-    height: 670px;
+    height: 600px;
     background-color: azure;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding-top: 120px; */
-    padding-top: 50px;
-}
-
-.chapter{
-    width: 211.37px;
-    height: 431.35px;
+    background-image: url(assets/images/shelf.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: 45px;
 }
 
 .cart{
     position: relative;
-    top: -88px;
-}
-
-
-
-.ta{
-    background-image: url("assets/images/Group.png");
-    width: 211.37px;
-    height: 431.35px;
-    display: flex;
+    top: 7px;
 }
 
 table{
     display: flex;
     position: relative;
-    top: -40px;
-    left: 13px;
+    top: 0px;
+    left: 10px;
     width: fit-content;
 }
 
@@ -53,4 +41,12 @@ table{
     margin-top: 38px;
     width: 100%;
     gap: 6px;
+}
+
+.secondShelf{
+    gap: 0;
+}
+
+.thirdShelf{
+    margin-top: 0px;
 }
