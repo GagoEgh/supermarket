@@ -1,0 +1,56 @@
+.market{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(33, 33, 33, 0.751);
+}
+
+.part{
+    width: 300px;
+    /* height: 480px; */
+    height: 670px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 120px; */
+    padding-top: 50px;
+}
+
+.chapter{
+    width: 211.37px;
+    height: 431.35px;
+}
+
+.cart{
+    position: relative;
+    top: -88px;
+}
+
+
+
+.ta{
+    background-image: url("assets/images/Group.png");
+    width: 211.37px;
+    height: 431.35px;
+    display: flex;
+}
+
+table{
+    display: flex;
+    position: relative;
+    top: -40px;
+    left: 13px;
+    width: fit-content;
+}
+
+.shelf{
+    display: flex;
+    align-items: end;
+    margin-top: 38px;
+    width: 100%;
+    gap: 6px;
+}
