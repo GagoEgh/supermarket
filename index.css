@@ -8,6 +8,7 @@
 }
 
 .wrapper{
+    position: relative;
     width: 300px;
     height: 600px;
     background-color: azure;
@@ -22,12 +23,7 @@
     background-position-y: 45px;
 }
 
-.cart{
-    position: relative;
-    top: 7px;
-}
-
-table{
+.shelfs{
     display: flex;
     position: relative;
     top: 0px;
@@ -41,6 +37,7 @@ table{
     margin-top: 38px;
     width: 100%;
     gap: 6px;
+    cursor: pointer;
 }
 
 .secondShelf{
@@ -49,4 +46,44 @@ table{
 
 .thirdShelf{
     margin-top: 0px;
+}
+
+.block-basket{
+    position: relative;
+    top: 87px;
+}
+
+.basket{
+    position: relative;
+    top: -78px;
+    z-index: 11;
+    pointer-events: none;
+}
+
+.inBasket{
+    position: absolute;
+    top: -71px;
+    left: 60px;
+    width: 206px;
+    height: 167px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: end;
+
+}
+
+.btn{
+
+    width: 174px;
+    padding: 20px;
+    border-radius: 12px;
+    border: none;
+    background: yellow;
+    position: absolute;
+    top: 89%;
+    left: 24%;
+    z-index: 99;
+    font-size: 16px;
+    display: none;
+    cursor: pointer;
 }
